@@ -1,6 +1,6 @@
 {
   "name": "tvuj-cloud",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "web tvuj.cloud",
   "repository": "git@github.com:randajan/tvuj-cloud.git",
   "main": "index.js",
