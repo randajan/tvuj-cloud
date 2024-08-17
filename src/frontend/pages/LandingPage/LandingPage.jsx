@@ -10,6 +10,11 @@ import { page } from '@randajan/jet-react/base/page';
 
 import { InfoPop } from "../../frames/InfoPop/InfoPop";
 
+import svgOnline from "./online.svg";
+import svgRDP from "./rdp.svg";
+
+console.log(svgOnline);
+
 export const LandingPage = (props)=>{
     const {} = props;
 
@@ -29,10 +34,10 @@ export const LandingPage = (props)=>{
             </div>
             <div className="controls">
                 <Link className="button" to="https://tvuj.cloud/RDWeb" target>
-                    <Tile src={"/static/ico/rdp.svg"} caption={"Stáhnout RDP"}/>
+                    <Tile src={svgRDP} caption={"Stáhnout RDP"}/>
                 </Link>
                 <Link className="button" to="https://tvuj.cloud/RDWeb/webclient/index.html" target>
-                    <Tile src={"/static/ico/online.svg"} caption={"Spustit online"}/>
+                    <Tile src={svgOnline} caption={"Spustit online"}/>
                 </Link>
             </div>
             <Link className="button circle info" to={"#info=show"}>?</Link>

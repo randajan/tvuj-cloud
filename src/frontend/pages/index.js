@@ -12,8 +12,7 @@ import tab from "@randajan/jet-react/base/tab";
 
 
 const pages = [
-  { title:"", path:"/", content:<LandingPage/> },
-  { title:"", path:"(.*)", content:<Error404/> }
+  { title:"", path:"(.*)", content:<LandingPage/> },
 ];
 
 export const Router = createRouter(pages);
