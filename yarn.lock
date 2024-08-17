@@ -150,10 +150,10 @@
   resolved "https://registry.yarnpkg.com/@randajan/jet-core/-/jet-core-4.1.0.tgz#21dc6b01b342f321dcf4f93aff82686e71dce021"
   integrity sha512-pzSeyTmDgioSZZ4xLLqjpBGT35XY1uMcLsBhOuLYnItx/qmi8KGzZDgNGwVkvF+4m2eWTQQa03+kS/AI8Ve3bg==
 
-"@randajan/jet-react@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@randajan/jet-react/-/jet-react-2.3.0.tgz#b89b1722b7f3a58b16dee1cd3a8c936e1f317bde"
-  integrity sha512-Fqu4geCBffPh0/o8ObjhnhMl5RONOff44Qr21ZN5FHJwHjvrzprUYeH0fnRwt49O9Zto9UeBiaS6hm+rg45QXw==
+"@randajan/jet-react@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@randajan/jet-react/-/jet-react-2.3.1.tgz#a6294174e253788ad4cad189c8e36c80b4352296"
+  integrity sha512-1fn9qnK8v7Hw+k9LwZZjYuE2EaT+XnfI0XkQ6UYaN1Qkn1r2x/qHdseVwTxqJE2gB3J4nVW3VueTNPoiMOoU9g==
 
 "@randajan/simple-app@^3.1.2":
   version "3.1.2"

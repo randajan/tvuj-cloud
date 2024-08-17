@@ -1,0 +1,51 @@
+/* Základní styl pro tlačítko */
+a.button,
+a.button:active {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #007bff;
+    /* Primární barva tlačítka */
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 .2em .01em rgba(66, 66, 66, .4);
+    /* Jemný stín */
+
+    &, * {
+        color: white;
+    }
+}
+
+/* Efekt při najetí myší */
+a.button:hover {
+    background-color: #339aff;
+    /* Světlejší odstín při najetí myší */
+    /* Tmavší odstín při najetí myší */
+    transform: scale(1.05);
+    /* Zvětšení tlačítka */
+    box-shadow: 0 0 .5em .2em rgba(66, 66, 66, .6);
+    /* Zesílení stínu */
+}
+
+/* Efekt při kliknutí */
+a.button:active {
+    background-color: #007bff;
+    /* Ještě tmavší odstín při kliknutí */
+    transform: scale(1.02);
+    /* Jemné zmenšení při kliknutí */
+    box-shadow: 0 0 .2em .05em rgba(66, 66, 66, .6);
+    /* Snížení stínu */
+}
+
+a.button.circle {
+    display:flex;
+    border-radius:2.5em;
+    height:2.5em;
+    width:2.5em;
+    justify-content:center;
+    align-items: center;
+}

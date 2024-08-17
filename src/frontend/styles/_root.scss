@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    color:#444;
 }
 
 html {
@@ -44,4 +45,11 @@ a {
     grid-template-rows: 1fr;
     grid-template-columns: 100%;
     overflow:hidden;
+}
+
+
+.Modal {
+    .Pop {
+        width:500px;
+    }
 }

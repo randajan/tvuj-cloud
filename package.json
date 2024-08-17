@@ -10,7 +10,7 @@
   "dependencies": {
     "@randajan/jet-base": "^2.3.2",
     "@randajan/jet-core": "^4.1.0",
-    "@randajan/jet-react": "^2.3.0",
+    "@randajan/jet-react": "^2.3.1",
     "@randajan/simple-app": "^3.1.2",
     "esbuild-plugin-import-glob": "^0.1.1",
     "esbuild-sass-plugin": "^3.3.1",
