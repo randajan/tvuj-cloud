@@ -28,7 +28,7 @@ export const LandingPage = (props)=>{
     return (
         <Block className="LandingPage slab" level={0}>
             <div className="title">
-                <Caption>tvuj.cloud</Caption>
+                <Caption className="floating">tvuj.cloud</Caption>
             </div>
             <div className="controls">
                 <Link className="button" to="https://tvuj.cloud/RDWeb" target>

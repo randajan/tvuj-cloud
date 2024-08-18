@@ -1,0 +1,16 @@
+
+.floating {
+    animation: floating 4s infinite ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform:translateY(-1%);
+    }
+    50% {
+        transform:translateY(+2%);
+    }
+    100% {
+        transform:translateY(-1%);
+    }
+}

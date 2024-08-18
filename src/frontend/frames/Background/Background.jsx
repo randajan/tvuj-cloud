@@ -38,7 +38,9 @@ export const Background = () => {
                     }}
                 />
             ))}
-            <Img src={svgLogo}/>
+            <div className="logo">
+                <Img src={svgLogo}/>
+            </div>
         </section>
     )
 }

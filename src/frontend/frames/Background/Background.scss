@@ -11,16 +11,20 @@
         opacity:0;
     }
 
-    .Img {
+    .logo {
         position:absolute;
         top:0%;
         left:50%;
         transform:translate(-50%, 18%);
         opacity:.4;
-        width:90vw;
-        height:90vw;
-        max-width:90vh;
-        max-height:90vh;
+
+        .Img {
+            width:90vw;
+            height:90vw;
+            max-width:90vh;
+            max-height:90vh;
+        }
+
     }
 }
 
