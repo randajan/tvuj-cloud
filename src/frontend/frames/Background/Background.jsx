@@ -1,4 +1,7 @@
 import React from 'react';
+import svgLogo from "./logo.svg";
+
+import { Img } from '@randajan/jet-react/dom/img';
 
 import "./Background.scss";
 
@@ -35,6 +38,7 @@ export const Background = () => {
                     }}
                 />
             ))}
+            <Img src={svgLogo}/>
         </section>
     )
 }

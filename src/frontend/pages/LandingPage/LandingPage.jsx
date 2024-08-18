@@ -13,8 +13,6 @@ import { InfoPop } from "../../frames/InfoPop/InfoPop";
 import svgOnline from "./online.svg";
 import svgRDP from "./rdp.svg";
 
-console.log(svgOnline);
-
 export const LandingPage = (props)=>{
     const {} = props;
 

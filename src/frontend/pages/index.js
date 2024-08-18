@@ -27,8 +27,8 @@ tab.fit((next, v)=>{
 
   clearTimeout(_int);
 
-  if (v.visible !== false) { v.title += " ⛅"; }
-  else { v.title += " ☁️"; }
+  // if (v.visible !== false) { v.title += " ⛅"; }
+  // else { v.title += " ☁️"; }
 
   return v;
 });
